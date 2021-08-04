@@ -7,6 +7,9 @@ target 'MSTG-JWT' do
   pod 'Alamofire', '~> 4.3'
   pod 'SwiftyJSON', '~> 4.0'
   pod 'KeychainSwift', '~> 12.0'
+  pod 'TwitterKit', '~> 3.4.2'
+  pod 'AFNetworking', '~> 2.5.1'
+  pod 'CouchbaseLite-Swift', '~> 2.6.0'
 
   # Pods for MSTG-JWT
 
