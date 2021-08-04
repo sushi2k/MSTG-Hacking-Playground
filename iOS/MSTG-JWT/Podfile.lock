@@ -1,24 +1,61 @@
 PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - Alamofire (4.5.1)
+  - CouchbaseLite-Swift (2.6.4)
   - KeychainSwift (12.0.0)
   - SwiftyJSON (4.1.0)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
 
 DEPENDENCIES:
+  - AFNetworking (~> 2.5.1)
   - Alamofire (~> 4.3)
+  - CouchbaseLite-Swift (~> 2.6.0)
   - KeychainSwift (~> 12.0)
   - SwiftyJSON (~> 4.0)
+  - TwitterKit (~> 3.4.2)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - KeychainSwift
     - SwiftyJSON
+  trunk:
+    - AFNetworking
+    - CouchbaseLite-Swift
+    - TwitterCore
+    - TwitterKit
 
 SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CouchbaseLite-Swift: dbd25d6d0b385c38294fee767e7d6ed172e790ba
   KeychainSwift: d5e776578587ee5958ce36601df22f168f65138a
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: 68b0f1d95a0e874be632257bade3132ba1726c0f
+PODFILE CHECKSUM: c75b6b69db5e3527d78eb71b1395601e807c63a0
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.1
